@@ -15,7 +15,7 @@ plugins {
 
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/Valdi1111/anime-downloader")
+        url = uri("https://maven.pkg.github.com/Valdi1111/kurumi-chan")
         credentials {
             username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_USERNAME")
             password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    //implementation("org.valdi:animedownloader-api:1.0.0")
+    implementation("org.valdi:animedownloader-api:1.0.0")
 }
 
 application {
