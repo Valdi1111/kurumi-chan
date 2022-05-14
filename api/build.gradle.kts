@@ -3,7 +3,7 @@
  */
 
 plugins {
-    id("org.valdi.animedownloader.java-library-conventions")
+    id("org.valdi.kurumichan.java-library-conventions")
 }
 
 dependencies {

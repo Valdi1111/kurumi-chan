@@ -3,7 +3,7 @@
  */
 
 plugins {
-    id("org.valdi.animedownloader.java-application-conventions")
+    id("org.valdi.kurumichan.java-application-conventions")
 
     /*
      * Adds tasks to export a runnable jar.
